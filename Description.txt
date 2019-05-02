@@ -1,0 +1,10 @@
+During program, mentee should implement a web-site (forum).
+Implement user roles, user authorization, user authentication.
+Depending on the roles, the user can create, delete, edit, read information on the forum - 
+(Comments, Sections, Topics and Sub Topics).
+
+Stack:
+.Net Core
+MS SQL
+Entity Framework Core + Code First
+Identity Server
