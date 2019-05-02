@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2042
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MentorIdentity.DALL", "MentorIdentity.DALL\MentorIdentity.DALL.csproj", "{6A49A28B-4BD9-4A87-80B7-35469140F97B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MentorIdentity.DALL", "MentorIdentity.DALL\MentorIdentity.DALL.csproj", "{6A49A28B-4BD9-4A87-80B7-35469140F97B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MentorIdntity.BLL", "MentorIdntity.BLL\MentorIdntity.BLL.csproj", "{6EF306CD-87AB-440D-9512-870C0965795A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MentorIdentity.BLL", "MentorIdntity.BLL\MentorIdentity.BLL.csproj", "{6EF306CD-87AB-440D-9512-870C0965795A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MentorIdentity.WebApp", "MentorIdentity.WebApp\MentorIdentity.WebApp.csproj", "{D09E5EBA-57DF-49D6-A525-D75ED5170FCD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MentorIdentity.WebApp", "MentorIdentity.WebApp\MentorIdentity.WebApp.csproj", "{D09E5EBA-57DF-49D6-A525-D75ED5170FCD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
