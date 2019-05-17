@@ -1,11 +1,12 @@
-﻿@{
+﻿@using MentorIdentity.DALL.ViewModels
+@{
     Layout = null;
 }
-@model MentorIdentity.DALL.ViewModels.RegisterViewModel
+@model RegisterViewModel
 
 <p>Register</p>
 
-<form method="post" asp-controller="Account" asp-action="Register">
+@*<form method="post" asp-controller="Account" asp-action="Register">
     <div asp-validation-summary="ModelOnly"></div>
     <div>
         <label asp-for="Email"></label><br />
@@ -30,4 +31,12 @@
     <div>
         <input type="submit" value="Registration" />
     </div>
+</form>*@
+
+<form method="post" asp-controller="Account" asp-action="Register">
+    <input name="Email" />
+    <input name="DayOfBirth" />
+    <input name="Password" />
+    <input name="PasswordConfirm" />
+    <input type="submit" value="Registration" />
 </form>
